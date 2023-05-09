@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 
+
 function Navbar() {
   return (
     <div>
@@ -10,7 +11,7 @@ function Navbar() {
       </Link>
       
       
-      <Link>
+      <Link to='/phones' >
       <button>Phones</button>
       </Link>
       
